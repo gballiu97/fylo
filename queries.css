@@ -1,0 +1,246 @@
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse;
+    justify-items: center;
+    gap: 40px;
+  }
+
+  .how {
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-items: center;
+  }
+
+  .hero_text-box {
+    grid-row: 2;
+  }
+
+  .how_text-box {
+    grid-row: 2;
+  }
+
+  .heading-primary {
+    text-align: center;
+  }
+  .hero_description {
+    text-align: center;
+  }
+
+  .email-form {
+    flex-direction: column;
+  }
+
+  .email-form_span {
+    align-self: center;
+  }
+
+  .email-form_btn {
+    align-self: center;
+    padding: 15px 123px;
+  }
+
+  .testimonial-box {
+    margin-left: 180px;
+  }
+
+  .early-access {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .section-early-access {
+    height: revert;
+  }
+
+  .early-access_text-box {
+    margin-left: revert;
+  }
+
+  .early-access_email-form {
+    margin-right: revert;
+  }
+
+  .early-access_btn {
+    align-self: center;
+    padding: 13px 173px;
+  }
+
+  .early-access_text-box p {
+    margin-bottom: 14px;
+  }
+
+  .social-links {
+    margin-right: revert;
+  }
+
+  .logo-col {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  header img {
+    width: 80px;
+    height: 24px;
+  }
+
+  .main-nav_link {
+    font-size: 12px;
+  }
+
+  .main-nav-list {
+    gap: 24px;
+  }
+
+  .hero {
+    width: 320px;
+  }
+
+  .hero_img {
+    width: 304px;
+    height: revert;
+  }
+
+  .heading-primary {
+    font-size: 24px;
+    width: 320px;
+  }
+
+  .hero_description {
+    font-size: 14px;
+    width: 296px;
+  }
+
+  .email-form {
+    width: 304px;
+  }
+
+  .hero_text-box {
+    width: 320px;
+  }
+
+  .how_img-box {
+    width: 320px;
+  }
+  .how_img-box img {
+    width: 320px;
+  }
+
+  .heading-secondary {
+    font-size: 16px;
+  }
+
+  .how_description {
+    font-size: 14px;
+  }
+
+  .how_text-box {
+    width: 320px;
+  }
+
+  .testimonial-box {
+    width: 280px;
+    margin-left: 20px;
+    text-align: initial;
+  }
+
+  .testimonial_symbol {
+    font-size: 35px;
+  }
+
+  .testimonial_text {
+    font-size: 10px;
+  }
+
+  .face-ceo img {
+    width: 24px;
+  }
+
+  .flex-column h6 {
+    font-size: 9px;
+  }
+
+  .face-ceo p {
+    font-size: 6px;
+  }
+
+  .early-access_text-box {
+    width: 280px;
+  }
+
+  .early-access_text-box h3 {
+    font-size: 18px;
+  }
+
+  .early-access_text-box p {
+    font-size: 14px;
+  }
+
+  .early-access_email-box {
+    width: 240px;
+  }
+
+  .email-click-text {
+    width: 240px;
+    text-align: initial;
+  }
+
+  .early-access_email-form {
+    width: 240px;
+  }
+
+  .early-access_btn {
+    font-size: 10px;
+    padding: 13px 22px;
+    width: 240px;
+  }
+
+  .email-form_btn {
+    width: 320px;
+    padding: 15px 61px;
+  }
+
+  .footer_logo {
+    margin-top: revert;
+  }
+
+  .footer-grid {
+    flex-direction: column;
+    justify-items: revert;
+    align-items: initial;
+    padding: 65px 39px;
+    row-gap: 32px;
+  }
+
+  .logo-col {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .about-us-col {
+    margin-top: revert;
+    margin-bottom: revert;
+  }
+
+  .contact-us-col {
+    margin-top: revert;
+    margin-bottom: revert;
+  }
+
+  .social-links ul {
+    margin-top: revert;
+    margin-bottom: revert;
+  }
+
+  .footer_svg {
+    width: 28px;
+    height: 27px;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}

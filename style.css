@@ -1,0 +1,406 @@
+:root {
+  --text-color: #fff;
+  --font-family: "Open Sans";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 65px auto;
+  padding: 0 24px;
+}
+
+.header {
+  margin-bottom: 86px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 58px;
+}
+
+.main-nav-list li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #07043b;
+}
+
+.main-nav_link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #07043b;
+}
+
+.main-nav_link:hover {
+  border-bottom: 1px solid #07043b;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+.hero {
+  display: flex;
+  margin-bottom: 164px;
+  align-items: center;
+}
+
+.heading-primary {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero_description {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  font-family: var(--font-family);
+}
+
+.section-how_btn:hover .section-how_arrow {
+  background-color: #71dfcc;
+}
+
+.email-form {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+}
+
+.email-form_span {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.email_imput {
+  width: 320px;
+  height: 45px;
+  padding-left: 21px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+}
+
+.email_imput:hover {
+  border: 1px solid red;
+}
+
+.email_imput::placeholder {
+  color: #c2c2c2;
+}
+
+.email-form_btn {
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #2f65f8;
+  color: var(--text-color);
+  padding: 15px 61px;
+  border: 1px solid;
+  border-radius: 6px;
+  -webkit-box-shadow: -1px 10px 15px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 10px 15px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 10px 15px -13px rgba(0, 0, 0, 0.75);
+}
+
+.btn_opacity:hover {
+  opacity: 70%;
+}
+
+.hero_text-box {
+  width: 640px;
+}
+
+.btn-click-text {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ef4877;
+}
+
+.how {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 83px;
+}
+.section-how {
+  background-image: url(imgs/background\ img.png);
+  padding-bottom: 106px;
+  padding-top: 10px;
+  margin-bottom: 0;
+  background-size: 100% 100%;
+}
+
+.section-how_arrow {
+  width: 18px;
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #3da08f;
+  color: var(--text-color);
+}
+
+.section-how_arrow svg {
+  fill: var(--text-color);
+}
+
+.heading-secondary {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.how_description_gap {
+  margin-bottom: 15px;
+  font-family: var(--font-family);
+}
+.how_description_gap2 {
+  margin-bottom: 14px;
+  font-family: var(--font-family);
+}
+
+.how_description {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #07043b;
+}
+
+.section-how_btn {
+  color: #3da08f;
+  cursor: pointer;
+  margin-bottom: 42px;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  border-color: #3da08f;
+  line-height: 1.5;
+  padding-bottom: 5px;
+}
+
+.section-how_btn:hover {
+  color: #71dfcc;
+  border-color: #71dfcc;
+}
+
+.testimonial_text {
+  font-size: 13px;
+  line-height: 1.4;
+  font-family: var(--font-family);
+}
+
+.testimonial-box {
+  width: 356px;
+  height: 220px;
+  padding: 45px 34px 69px 33px;
+  box-shadow: 15px -4px 40px rgb(0 0 0 / 8%);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.testimonial_symbol {
+  font-size: 45px;
+  font-weight: 400;
+  font-family: "Nunito Sans";
+  margin-top: -42px;
+}
+
+.face-ceo {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  gap: 4px;
+  font-family: var(--font-family);
+}
+
+.face-ceo h6 {
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.face-ceo p {
+  font-size: 8px;
+  font-weight: 400;
+}
+
+.section-early-access {
+  background-color: #575988;
+}
+
+.early-access {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 87px;
+  padding-bottom: 103px;
+  gap: 180px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.early-access_text-box p {
+  font-family: var(--font-family);
+}
+
+.early-access_text-box h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 17px;
+}
+
+.early-access_text-box p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.early-access_email-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.early-acess_span {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.email-click-text {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-color);
+  margin-bottom: 14px;
+}
+
+.early-access_btn {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 13px 22px;
+  border-radius: 4px;
+  background-color: blue;
+  align-self: flex-start;
+}
+
+.early-access_email-box {
+  width: 480px;
+  height: 42px;
+  padding-left: 21px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+}
+
+.early-access_email-box:hover {
+  border: 1px solid red;
+}
+
+.footer {
+  background-color: #07043b;
+}
+
+.footer_logo {
+  margin-top: -146px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-color);
+  justify-items: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 87px;
+}
+.contact {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.services_hover:hover {
+  color: #6c9bff;
+}
+
+.phone-details {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 15px;
+}
+
+.email-details {
+  display: flex;
+  gap: 16px;
+}
+
+.social-links {
+  display: flex;
+}
+
+.logo-col img {
+  margin-bottom: 36px;
+}
+
+.about-us-col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.services {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.contact-us-col {
+  padding-bottom: 34px;
+}
+
+.contact-us-col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.social-links ul {
+  display: flex;
+  gap: 12px;
+  margin-top: 169px;
+  margin-bottom: 190px;
+}
+
+.footer_svg {
+  width: 31px;
+  height: 31px;
+  border: 1px solid white;
+  border-radius: 50%;
+  fill: white;
+  padding: 5px;
+}
